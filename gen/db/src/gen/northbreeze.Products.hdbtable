@@ -1,0 +1,7 @@
+COLUMN TABLE northbreeze_Products (
+  ProductID INTEGER NOT NULL,
+  ProductName NVARCHAR(5000),
+  UnitsInStock INTEGER,
+  Category_CategoryID INTEGER,
+  PRIMARY KEY(ProductID)
+)

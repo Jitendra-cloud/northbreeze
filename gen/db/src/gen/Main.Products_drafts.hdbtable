@@ -1,0 +1,11 @@
+COLUMN TABLE Main_Products_drafts (
+  ProductID INTEGER NOT NULL,
+  ProductName NVARCHAR(5000) NULL,
+  UnitsInStock INTEGER NULL,
+  Category_CategoryID INTEGER NULL,
+  IsActiveEntity BOOLEAN,
+  HasActiveEntity BOOLEAN,
+  HasDraftEntity BOOLEAN,
+  DraftAdministrativeData_DraftUUID NVARCHAR(36) NOT NULL,
+  PRIMARY KEY(ProductID)
+)

@@ -1,0 +1,10 @@
+COLUMN TABLE Main_Categories_drafts (
+  CategoryID INTEGER NOT NULL,
+  CategoryName NVARCHAR(5000) NULL,
+  Description NVARCHAR(5000) NULL,
+  IsActiveEntity BOOLEAN,
+  HasActiveEntity BOOLEAN,
+  HasDraftEntity BOOLEAN,
+  DraftAdministrativeData_DraftUUID NVARCHAR(36) NOT NULL,
+  PRIMARY KEY(CategoryID)
+)
